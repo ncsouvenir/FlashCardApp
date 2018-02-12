@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8190BA4E203244100015EC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA4D203244100015EC99 /* AppDelegate.swift */; };
-		8190BA50203244100015EC99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA4F203244100015EC99 /* ViewController.swift */; };
-		8190BA53203244100015EC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8190BA51203244100015EC99 /* Main.storyboard */; };
 		8190BA55203244100015EC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8190BA54203244100015EC99 /* Assets.xcassets */; };
 		8190BA58203244100015EC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8190BA56203244100015EC99 /* LaunchScreen.storyboard */; };
 		8190BA63203244110015EC99 /* FlashCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA62203244110015EC99 /* FlashCardAppTests.swift */; };
 		8190BA6E203244110015EC99 /* FlashCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA6D203244110015EC99 /* FlashCardAppUITests.swift */; };
+		8190BA7C20324B3B0015EC99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA7B20324B3B0015EC99 /* LoginView.swift */; };
+		8190BA8220324B810015EC99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8120324B810015EC99 /* LoginViewController.swift */; };
+		8190BA8420324B9C0015EC99 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8320324B9C0015EC99 /* CreateAccountView.swift */; };
+		8190BA8620324BBD0015EC99 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8520324BBD0015EC99 /* CategoriesView.swift */; };
+		8190BA8820324BD00015EC99 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8720324BD00015EC99 /* CategoriesViewController.swift */; };
+		8190BA8A20324CFB0015EC99 /* FlashcardQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8920324CFB0015EC99 /* FlashcardQuizViewController.swift */; };
+		8190BA8C20324D180015EC99 /* FlashcardFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8B20324D180015EC99 /* FlashcardFrontView.swift */; };
+		8190BA8E20324D2D0015EC99 /* FlashcardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8D20324D2D0015EC99 /* FlashcardBackView.swift */; };
+		8190BA9020324DCF0015EC99 /* FirebaseUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA8F20324DCF0015EC99 /* FirebaseUserManager.swift */; };
+		8190BA9220324DE20015EC99 /* FirebaseCardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA9120324DE20015EC99 /* FirebaseCardManager.swift */; };
+		8190BA942032500D0015EC99 /* FirebaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190BA932032500D0015EC99 /* FirebaseModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +45,6 @@
 /* Begin PBXFileReference section */
 		8190BA4A203244100015EC99 /* FlashCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190BA4D203244100015EC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8190BA4F203244100015EC99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8190BA52203244100015EC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8190BA54203244100015EC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8190BA57203244100015EC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8190BA59203244100015EC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 		8190BA69203244110015EC99 /* FlashCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190BA6D203244110015EC99 /* FlashCardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardAppUITests.swift; sourceTree = "<group>"; };
 		8190BA6F203244110015EC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8190BA7B20324B3B0015EC99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8190BA8120324B810015EC99 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8190BA8320324B9C0015EC99 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		8190BA8520324BBD0015EC99 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		8190BA8720324BD00015EC99 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		8190BA8920324CFB0015EC99 /* FlashcardQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardQuizViewController.swift; sourceTree = "<group>"; };
+		8190BA8B20324D180015EC99 /* FlashcardFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardFrontView.swift; sourceTree = "<group>"; };
+		8190BA8D20324D2D0015EC99 /* FlashcardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardBackView.swift; sourceTree = "<group>"; };
+		8190BA8F20324DCF0015EC99 /* FirebaseUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserManager.swift; sourceTree = "<group>"; };
+		8190BA9120324DE20015EC99 /* FirebaseCardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCardManager.swift; sourceTree = "<group>"; };
+		8190BA932032500D0015EC99 /* FirebaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +115,11 @@
 		8190BA4C203244100015EC99 /* FlashCardApp */ = {
 			isa = PBXGroup;
 			children = (
+				8190BA8020324B600015EC99 /* Services */,
+				8190BA7F20324B570015EC99 /* Models */,
+				8190BA7E20324B4B0015EC99 /* View Controllers */,
+				8190BA7D20324B410015EC99 /* Views */,
 				8190BA4D203244100015EC99 /* AppDelegate.swift */,
-				8190BA4F203244100015EC99 /* ViewController.swift */,
-				8190BA51203244100015EC99 /* Main.storyboard */,
 				8190BA54203244100015EC99 /* Assets.xcassets */,
 				8190BA56203244100015EC99 /* LaunchScreen.storyboard */,
 				8190BA59203244100015EC99 /* Info.plist */,
@@ -123,6 +143,45 @@
 				8190BA6F203244110015EC99 /* Info.plist */,
 			);
 			path = FlashCardAppUITests;
+			sourceTree = "<group>";
+		};
+		8190BA7D20324B410015EC99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8190BA7B20324B3B0015EC99 /* LoginView.swift */,
+				8190BA8320324B9C0015EC99 /* CreateAccountView.swift */,
+				8190BA8520324BBD0015EC99 /* CategoriesView.swift */,
+				8190BA8B20324D180015EC99 /* FlashcardFrontView.swift */,
+				8190BA8D20324D2D0015EC99 /* FlashcardBackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8190BA7E20324B4B0015EC99 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8190BA8120324B810015EC99 /* LoginViewController.swift */,
+				8190BA8720324BD00015EC99 /* CategoriesViewController.swift */,
+				8190BA8920324CFB0015EC99 /* FlashcardQuizViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8190BA7F20324B570015EC99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8190BA932032500D0015EC99 /* FirebaseModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8190BA8020324B600015EC99 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8190BA8F20324DCF0015EC99 /* FirebaseUserManager.swift */,
+				8190BA9120324DE20015EC99 /* FirebaseCardManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +293,6 @@
 			files = (
 				8190BA58203244100015EC99 /* LaunchScreen.storyboard in Resources */,
 				8190BA55203244100015EC99 /* Assets.xcassets in Resources */,
-				8190BA53203244100015EC99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8190BA50203244100015EC99 /* ViewController.swift in Sources */,
+				8190BA942032500D0015EC99 /* FirebaseModels.swift in Sources */,
+				8190BA8E20324D2D0015EC99 /* FlashcardBackView.swift in Sources */,
+				8190BA8220324B810015EC99 /* LoginViewController.swift in Sources */,
+				8190BA7C20324B3B0015EC99 /* LoginView.swift in Sources */,
+				8190BA8820324BD00015EC99 /* CategoriesViewController.swift in Sources */,
+				8190BA8420324B9C0015EC99 /* CreateAccountView.swift in Sources */,
+				8190BA9020324DCF0015EC99 /* FirebaseUserManager.swift in Sources */,
+				8190BA8A20324CFB0015EC99 /* FlashcardQuizViewController.swift in Sources */,
+				8190BA8620324BBD0015EC99 /* CategoriesView.swift in Sources */,
+				8190BA9220324DE20015EC99 /* FirebaseCardManager.swift in Sources */,
 				8190BA4E203244100015EC99 /* AppDelegate.swift in Sources */,
+				8190BA8C20324D180015EC99 /* FlashcardFrontView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8190BA51203244100015EC99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8190BA52203244100015EC99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8190BA56203244100015EC99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
